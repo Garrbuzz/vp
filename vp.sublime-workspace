@@ -1,0 +1,1027 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"con",
+				"align-content"
+			],
+			[
+				"font-w",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"just",
+				"text-justify"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"l",
+				"line-height\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"bacg",
+				"background-size"
+			],
+			[
+				"gri",
+				"grid-column-start\tproperty"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"grid-r",
+				"grid-row-end"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"grid-row",
+				"grid-row-end"
+			],
+			[
+				"grid-row-",
+				"grid-row-start\tproperty"
+			],
+			[
+				"grid-colum",
+				"grid-column-end"
+			],
+			[
+				"grid-co",
+				"grid-column-start\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ju",
+				"justify-content"
+			],
+			[
+				"grid",
+				"grid-column-start\tproperty"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"bot",
+				"both"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"tr",
+				"translate()"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"gr",
+				"grid-column-end\tproperty"
+			],
+			[
+				"grid-ro",
+				"grid-row-start\tproperty"
+			],
+			[
+				"str",
+				"strike-1-1-paused"
+			],
+			[
+				"animation-d",
+				"animation-delay"
+			],
+			[
+				"i",
+				"infinite"
+			],
+			[
+				"animation-it",
+				"animation-iteration-count"
+			],
+			[
+				"animation-du",
+				"animation-duration"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin-bott",
+				"margin-bottom"
+			],
+			[
+				"ne",
+				"news-item"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"bacground",
+				"background-image\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"e",
+				"ease-in-out"
+			],
+			[
+				"gre",
+				"grey"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"red",
+				"readyState"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"pr",
+				"print_r"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"B",
+				"background"
+			],
+			[
+				"se",
+				"session_start"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"shad",
+				"box-shadow"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"br",
+				"brOfCart"
+			],
+			[
+				"ch",
+				"choiceOfCartridge"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"db",
+				"db_password"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"Azbuka",
+				"Azbuka06.ttf"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"Background-c",
+				"background-color"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text-in",
+				"text-indent"
+			],
+			[
+				"lette",
+				"letter-spacing"
+			],
+			[
+				"col-md",
+				"col-md-2"
+			],
+			[
+				"md-",
+				"col-md-1"
+			],
+			[
+				"end",
+				"endfor"
+			],
+			[
+				"fore",
+				"foreach\tforeach …"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2280,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/outsoursing.html",
+			"settings":
+			{
+				"buffer_size": 3075,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/webdesign.html",
+			"settings":
+			{
+				"buffer_size": 918,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/contacts.html",
+			"settings":
+			{
+				"buffer_size": 848,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/creating.html",
+			"settings":
+			{
+				"buffer_size": 2174,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 3960,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "livereload",
+		"selected_items":
+		[
+			[
+				"livereload",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/OpServ/OSPanel/domains/imla1/css/style.css",
+		"/E/OpServ/OSPanel/domains/vp/html/incedent.html",
+		"/E/OpServ/OSPanel/domains/vp/html/soft.html",
+		"/E/OpServ/OSPanel/domains/vp/html/network.html",
+		"/E/OpServ/OSPanel/domains/vp/html/abonent.html",
+		"/E/OpServ/OSPanel/domains/imla/css/style.css",
+		"/E/OpServ/OSPanel/domains/imla/index.html",
+		"/E/OpServ/OSPanel/domains/imla1/html/about.html",
+		"/E/OpServ/OSPanel/domains/imla1/index.html",
+		"/E/OpServ/OSPanel/domains/imla/js/script.js",
+		"/E/OpServ/OSPanel/domains/imla/html/blog.html",
+		"/E/OpServ/OSPanel/domains/imla/html/contacts.html",
+		"/E/OpServ/OSPanel/domains/imla/html/about.html",
+		"/E/OpServ/OSPanel/domains/imla/html/media.html",
+		"/E/OpServ/OSPanel/domains/imla/index_old.html",
+		"/E/OpServ/OSPanel/domains/imla/js/script_old_0407_2018_1.js",
+		"/E/OpServ/OSPanel/domains/imla/css/style_new.css",
+		"/E/OpServ/OSPanel/domains/imla/js/script_old_0407_2018.js",
+		"/E/OpServ/OSPanel/domains/imla/css/style_old.css",
+		"/E/test/style.css",
+		"/E/test/index.html",
+		"/E/openserver/OpenServer/domains/stroom/css/style.css",
+		"/E/openserver/OpenServer/domains/cartridges/index.html",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceBrandOfCartridges.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/session.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/login.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/chkauth.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/functions.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/test.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceBySerial.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceCartridge.php",
+		"/E/openserver/OpenServer/domains/cartridges/css/style.css",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceofcartridge.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/currentstatusname.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/readstatuses.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/currentstatus.php",
+		"/E/openserver/OpenServer/domains/cartridges/html/accounting.html",
+		"/E/openserver/OpenServer/domains/cartridges/html/cartridges.html",
+		"/E/openserver/OpenServer/domains/cartridges/php/writenewstatus.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/cartridges.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/newcartridge.php",
+		"/E/openserver/OpenServer/domains/gn/index.html",
+		"/E/openserver/OpenServer/domains/cartridges/js/script.js",
+		"/D/VP/Проекты/WEB/html/demo_1556/demo/index.html",
+		"/E/openserver/OpenServer/domains/novikoff/php/wr.php",
+		"/E/openserver/OpenServer/domains/novikoff/css/style.css",
+		"/E/openserver/OpenServer/domains/novikoff/index.html",
+		"/E/openserver/OpenServer/domains/voloh/css/style.css",
+		"/E/openserver/OpenServer/domains/voloh/index.html",
+		"/E/openserver/OpenServer/domains/voloh/html/contacts.html",
+		"/E/openserver/OpenServer/domains/voloh/html/naturopatiya.html",
+		"/E/openserver/OpenServer/domains/voloh/html/catalog.html",
+		"/E/openserver/OpenServer/domains/voloh/css/bootstrap.css",
+		"/D/VP/Проекты/WEB/Voloh/images/19724204_2118372691723619_2039646515_o.jpg",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/templateBootstrap/222222222.html",
+		"/D/VP/Проекты/WEB/edu/index.php",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/templateBootstrap/css/style.css",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/templateBootstrap/index.html",
+		"/D/VP/Проекты/WEB/Seva_sled/new/work/index.html",
+		"/D/VP/Проекты/WEB/Seva_sled/new/work/css/style.css",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/backup/templates/b2b_vendor",
+		"/D/VP/Проекты/WEB/edu/php/b2b_price_uah.php",
+		"/D/VP/Проекты/WEB/html/templates/work/work/index.html",
+		"/D/VP/Проекты/WEB/edu/cardProd.php",
+		"/D/VP/Проекты/WEB/edu/php/changeProfile.php",
+		"/D/VP/Проекты/WEB/edu/php/b2b_order_from_list.php",
+		"/D/VP/Проекты/WEB/edu/php/b2b_orderlist.php",
+		"/D/VP/Проекты/WEB/Partex/HTML_New/b2b_style.css",
+		"/D/VP/Проекты/WEB/edu/foreach1.php",
+		"/D/VP/Проекты/WEB/edu/primes3first_200_400.php",
+		"/D/VP/Проекты/WEB/html/index.html",
+		"/D/VP/Проекты/WEB/html/Ed7YdFa7"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\t\t",
+			"li",
+			"creating",
+			"outsourcing",
+			"ddd",
+			"8",
+			".title",
+			"none",
+			"opa",
+			";\n",
+			"6",
+			"2s",
+			"margin:auto",
+			"wrapper",
+			"@keyframes member1{\n\t0%, 100% {box-shadow: none;\n\t}\n\t1%{\n\t\tbox-shadow: 0 0 5px rgba(200,200,200, 0.5);\n\t}\n\t25%{\n\t\tbox-shadow: 0 0 50px rgba(200,200,200, 0.5);\n\t}\n\t50%{\n\t\tbox-shadow: 0 0 150px rgba(200,200,200, 0.5);\n\t}\n\t75%{\n\t\tbox-shadow: 0 0 50px rgba(200,200,200, 0.5);\n\t}\n\t98%{\n\t\tbox-shadow: 0 0 5px rgba(200,200,200, 0.5);\n\t}",
+			"member",
+			"member1",
+			"stroo",
+			"Imla",
+			"background",
+			"\"x",
+			";\n",
+			"box-",
+			"alert",
+			"не за",
+			"за",
+			"min",
+			"readsta",
+			"choiceCa",
+			"choice-cartr-id",
+			"content",
+			"new-cartridge",
+			"alert",
+			"img",
+			"face",
+			"writeNewStatus",
+			"choiceCartridge",
+			"stat-sel",
+			"st",
+			"writeNewStatus",
+			"checkId",
+			"уніка",
+			"alert",
+			"writeNewStatus",
+			"change-button",
+			"alert",
+			"writeNewStatus",
+			"K",
+			"CONSO",
+			"brand",
+			"stat-sel",
+			" \n",
+			"відмінити",
+			"скасувати",
+			"choiceCartridge",
+			"v1",
+			"alert",
+			"writeNewStatus",
+			"alert",
+			"choiceCartridge",
+			"change-button",
+			"editStatusOfCartridge",
+			"console",
+			"alert",
+			"target",
+			"close",
+			"$db_table",
+			"oncha",
+			";\n",
+			"row",
+			"xhr.onreadystatechange",
+			"brand",
+			"3",
+			"75px",
+			";\n",
+			"$tpl",
+			"tpl",
+			"package",
+			"shopcon",
+			"classname",
+			"className",
+			"class",
+			"shopco",
+			"glukov",
+			"<?php\n/**\n *  MODX Configuration file\n */\n$database_type = 'mysql';\n$database_server = 'localhost';\n$database_user = 'test1';\n$database_password = 'gfhjkm123456';\n$database_connection_charset = 'utf8';\n$dbase = 'partex_new';\n$table_prefix = 'par_';\n$database_dsn = 'mysql:host=localhost;dbname=partex_new;charset=utf8';\n$config_options = array (\n);\n$driver_options = array (\n);\n\n$lastInstallTime = 1497125929;\n\n$site_id = 'modx593c542948d2c0.02389299';\n$site_sessionname = 'SN58b6d8da809f5';\n$https_port = '443';\n$uuid = '413ac5ec-6222-40d6-8ce2-efceb5039a51';\n\nif (!defined('MODX_CORE_PATH')) {\n    $modx_core_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/core/';\n    define('MODX_CORE_PATH', $modx_core_path);\n}\nif (!defined('MODX_PROCESSORS_PATH')) {\n    $modx_processors_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/core/model/modx/processors/';\n    define('MODX_PROCESSORS_PATH', $modx_processors_path);\n}\nif (!defined('MODX_CONNECTORS_PATH')) {\n    $modx_connectors_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/connectors/';\n    $modx_connectors_url= '/connectors/';\n    define('MODX_CONNECTORS_PATH', $modx_connectors_path);\n    define('MODX_CONNECTORS_URL', $modx_connectors_url);\n}\nif (!defined('MODX_MANAGER_PATH')) {\n    $modx_manager_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/manager/';\n    $modx_manager_url= '/manager/';\n    define('MODX_MANAGER_PATH', $modx_manager_path);\n    define('MODX_MANAGER_URL', $modx_manager_url);\n}\nif (!defined('MODX_BASE_PATH')) {\n    $modx_base_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/';\n    $modx_base_url= '/';\n    define('MODX_BASE_PATH', $modx_base_path);\n    define('MODX_BASE_URL', $modx_base_url);\n}\nif(defined('PHP_SAPI') && (PHP_SAPI == \"cli\" || PHP_SAPI == \"embed\")) {\n    $isSecureRequest = false;\n} else {\n    $isSecureRequest = ((isset ($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on') || $_SERVER['SERVER_PORT'] == $https_port);\n}\nif (!defined('MODX_URL_SCHEME')) {\n    $url_scheme=  $isSecureRequest ? 'https://' : 'http://';\n    define('MODX_URL_SCHEME', $url_scheme);\n}\nif (!defined('MODX_HTTP_HOST')) {\n    if(defined('PHP_SAPI') && (PHP_SAPI == \"cli\" || PHP_SAPI == \"embed\")) {\n        $http_host='glukov.net.ua';\n        define('MODX_HTTP_HOST', $http_host);\n    } else {\n        $http_host= array_key_exists('HTTP_HOST', $_SERVER) ? htmlspecialchars($_SERVER['HTTP_HOST'], ENT_QUOTES) : 'partex.glukov.net.ua';\n        if ($_SERVER['SERVER_PORT'] != 80) {\n            $http_host= str_replace(':' . $_SERVER['SERVER_PORT'], '', $http_host); // remove port from HTTP_HOST\n        }\n        $http_host .= ($_SERVER['SERVER_PORT'] == 80 || $isSecureRequest) ? '' : ':' . $_SERVER['SERVER_PORT'];\n        define('MODX_HTTP_HOST', $http_host);\n    }\n}\nif (!defined('MODX_SITE_URL')) {\n    $site_url= $url_scheme . $http_host . MODX_BASE_URL;\n    define('MODX_SITE_URL', $site_url);\n}\nif (!defined('MODX_ASSETS_PATH')) {\n    $modx_assets_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/assets/';\n    $modx_assets_url= '/assets/';\n    define('MODX_ASSETS_PATH', $modx_assets_path);\n    define('MODX_ASSETS_URL', $modx_assets_url);\n}\nif (!defined('MODX_LOG_LEVEL_FATAL')) {\n    define('MODX_LOG_LEVEL_FATAL', 0);\n    define('MODX_LOG_LEVEL_ERROR', 1);\n    define('MODX_LOG_LEVEL_WARN', 2);\n    define('MODX_LOG_LEVEL_INFO', 3);\n    define('MODX_LOG_LEVEL_DEBUG', 4);\n}\nif (!defined('MODX_CACHE_DISABLED')) {\n    $modx_cache_disabled= false;\n    define('MODX_CACHE_DISABLED', $modx_cache_disabled);\n}\n",
+			"price",
+			"float",
+			"fh5co-intro-sub",
+			"getCartContent",
+			"currency",
+			"container",
+			"178",
+			"fh5co-intro",
+			"fh5co-intro-sub",
+			"modresource",
+			"++;\n",
+			"purchases",
+			"shk_pur",
+			"shk-pur",
+			"shk",
+			"shk_purchases"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2165,
+								2165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/outsoursing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/webdesign.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								872,
+								875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/contacts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								652,
+								652
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "html/creating.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1502,
+								1502
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "vp.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

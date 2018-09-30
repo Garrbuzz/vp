@@ -1,0 +1,242 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/* header */
+header, .nav-cont{
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	font-family: 'roboto';
+}
+header{	
+	background: #eee;
+	/* background: url('../img/header.jpg'); */
+	background-size: cover; 
+	
+	padding-top: 1em;
+} 
+.content{
+	font-family: 'roboto';
+	color: #fff;
+}
+.phone{
+	grid-column-start: 2;
+	grid-column-end: 6;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: auto 0;
+	font-size: 1.5em;
+	color: #F65D07;
+}
+.logo{
+	grid-column-start:6;
+	grid-column-end: 10;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.email{
+	grid-column-start: 11;
+	grid-column-end: 14;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin: auto 0;
+	font-size: 1.5em;
+	color: #F65D07;
+}
+.vp{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 15;
+	display: flex;
+	justify-content: center;
+	color: #1188CC;
+}
+.vp a:visited{
+	color: #1188CC;
+}
+/* header */
+/* навігація */
+.breadcrumbs{
+	padding: 0;
+	margin: 0;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.nav{
+	grid-column-start: 5;
+	grid-column-end: 11;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto 0;
+}
+.breadcrumbs li{
+	float: left;
+	list-style-type:none;
+	font-family: 'roboto';
+	font-size: 0.8em;
+	padding:0.3em 0.3em 0.5em 0.3em;
+	color: #1188CC;
+}
+.breadcrumbs a{
+	color: #1188CC;
+	text-decoration: none;
+	transition: background .3s ease-in-out;
+}
+.breadcrumbs a:hover{
+	background: yellow;
+}
+.nav li{
+	float: left;
+	list-style-type:none;
+	font-family: 'roboto';
+	padding:0.3em 2em 0.5em 0;
+}
+.nav a{
+	color: #333;
+}
+/* навігація */
+/* інфраструктура */
+.structure{
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	grid-gap: 1em;
+	/* background: #07476B; */
+	background: url('../img/back-structure.jpg');
+	background-size: cover;
+	padding-bottom: 2em;
+	font-family: 'roboto';
+	padding: 1.5em 0;
+	/* margin-bottom: 2em; */
+}
+.left-shadow-window{
+	grid-column-start: 3;
+	grid-column-end: 8;
+}
+.cont-out{
+	margin: 1em 1em 1em 1.5em;
+	line-height: 1.5;
+}
+.cont-out li{
+	margin-bottom: 0.5em;
+}
+.right-shadow-window{
+	grid-column-start: 8;
+	grid-column-end: 13;
+}
+.right-shadow-window, .left-shadow-window{
+	/* display: flex; */
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: center;
+	padding: 1em 0;
+	background: rgba(32, 32, 32, 0.6);
+	border-radius: 0.3em;
+}
+.right-shadow-window a, .left-shadow-window a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0.2em 0;
+}
+.right-shadow-window p, .left-shadow-window p{
+	margin: 0;
+	padding: 0;
+}
+.st1{
+	font-size: 1.5em;
+	color: #F65D07;
+}
+.title-str{
+	text-align: center;
+	padding: 0 0 .5em;
+}
+.title-str ul{
+	list-style-type: disc;
+}
+.title-str span{
+	font-size: 0.67em;
+}
+.cont-out li{
+	color:#eee;
+}
+/* інфраструктура */
+/* сайти */
+.web{
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	padding: 0;
+	margin: 0;
+	background: url('../img/webbackground.jpg');
+}
+.new{
+	grid-column-start: 2;
+	grid-column-end: 14;
+	display: flex;
+	justify-content: center;
+	padding: 2em 0 0;
+	margin: 0;
+}
+
+.new-0{
+	padding: 0;
+}
+.p_new{
+	font-family: 'roboto';
+	font-size: 2em;
+	color: #F65D07;
+	padding: 0.3em;
+	margin: 0;
+}
+.webtitle{
+	font-family: 'roboto';
+	font-size: 1.5em;
+	color: #1188CC;
+	padding: 0;
+	margin: 0;
+	background: yellow;
+}
+.webimg{
+	grid-column-start: 2;
+	grid-column-end: 14;
+	display: flex;
+	justify-content: center;
+	margin: 3em 0 4em 0;
+}
+/* сайти */
+/* футер */
+footer{
+	height: 6em;
+	background: #555;
+}
+/* футер */
+
+/* outsoursing */
+.out-text{
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	padding: 0;
+	margin: 0;	
+}
+.text-outsourcing{
+	font-family: 'roboto';
+	font-size: 1.2em;
+	line-height:1.5;
+	grid-column-start: 4;
+	grid-column-end: 12;
+	padding: 0 2em 1em;
+
+}
+/* outsoursing */
+
+ @font-face {
+    font-family: Roboto; 
+    src: url(../fonts/roboto.ttf); 
+}
