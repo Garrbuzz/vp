@@ -240,7 +240,7 @@ header{
 .webtitle{
 	font-family: 'roboto';
 	font-size: 1.5em;
-	color: #1188CC;
+	color: #18C;
 	padding: 0;
 	margin: 0;
 	background: yellow;
@@ -262,6 +262,19 @@ footer{
 /* футер */
 
 /* outsoursing */
+.out-title{
+	grid-column-start: 1;
+	grid-column-end: 15;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+.out-title h1{
+	color: #aaa;
+	background: rgba(85, 85, 85, .9);
+	font-weight: 100;	
+	padding: 0.5em 1.5em;
+}
 .out-text{
 	display: grid;
 	grid-template-columns: 10% repeat(12, 1fr) 10%;
@@ -313,6 +326,10 @@ footer{
 	color:#dedede;
 /* 	font-size: 1.3em; */
 	font-family: 'Roboto';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	
 }
 .text-abonent p{
@@ -338,7 +355,46 @@ footer{
 	color: #dedede;
 }
 /* abonent */
+.calculator{
+	width: 100%;
+	display:grid;
+	grid-template-columns: 10% repeat(2, 1fr) 10%;
+	padding: 0;
+}
+.calculator input{
+	width: 5em;
+	height: 1.5em;
+}
+.calc-elem-name{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background: grey;
+	display: flex;
+	align-items: center;
+	padding: 0 2em;
+}
+.calc-elem-input{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	background: grey;
+	display: flex;
+	align-items: center;
+	padding: 0 1em;
+}
+.calc-result{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	display: flex;
+	background: grey;
+	justify-content: center;
+}
+
 /* end abonent */
+/* span */
+.italic{
+	font-style: italic;
+}
+/* end span */
  @font-face {
     font-family: Roboto; 
     src: url(../fonts/roboto.ttf); 
