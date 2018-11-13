@@ -12,7 +12,6 @@ header{
 	background: #eee;
 	/* background: url('../img/header.jpg'); */
 	background-size: cover; 
-	
 	padding-top: 1em;
 } 
 .content{
@@ -47,28 +46,51 @@ header{
 	font-size: 1.5em;
 	color: #F65D07;
 }
-.vp{
-	grid-row-start: 2;
-	grid-row-end: 3;
+.vp, .vp1{
 	grid-column-start: 1;
 	grid-column-end: 15;
 	display: flex;
 	justify-content: center;
-	color: #1188CC;
+/* 	color: #1188CC; */
+/* 	color: #0460b7; */
+}
+.vp{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	color: #1188CC;	
+}
+.vp1{
+	grid-row-start: 3;
+	grid-row-end: 4;
+	color: #0460b7;
+}
+.vp a{
+	text-decoration: none;
 }
 .vp a:visited{
 	color: #1188CC;
+}
+.vp p{
+	font-size: 2em;
+	margin: 0.5em 0 0;
+	font-weight: bold;
+}
+.vp1 h1{
+	font-weight: 100;
+	font-size: 1em;
+	margin:  0.5em 0 1.5em 0;
 }
 /* header */
 /* навігація */
 .breadcrumbs{
 	padding: 0;
 	margin: 0;
-	grid-column-start: 3;
-	grid-column-end: 12;
+	grid-column-start: 1;
+	grid-column-end: 15;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
+	background: #eee;
 }
 
 .breadcrumbs li{
@@ -76,7 +98,7 @@ header{
 	list-style-type:none;
 	font-family: 'roboto';
 	font-size: 0.8em;
-	padding:0.3em 0.3em 0.5em 0.3em;
+	padding:0em 0.3em 0em 0.3em;
 	color: #1188CC;
 }
 .breadcrumbs li:last-child{
@@ -99,7 +121,6 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: auto 0;
 }
 
 .nav li{
@@ -117,17 +138,22 @@ header{
 	display: grid;
 	grid-template-columns: 10% repeat(12, 1fr) 10%;
 	grid-gap: 1em;
-	/* background: #07476B; */
-	background: url('../img/back-structure.jpg');
-	background-size: cover;
-	padding-bottom: 2em;
 	font-family: 'roboto';
 	padding: 1.5em 0;
-	/* margin-bottom: 2em; */
+}
+
+.str-outsourcing{
+	background: url('../img/back-index.jpg');
+	background-size: 100%;
+}
+.str-index{
+	background: url('../img/back-index.jpg');
+	background-size: 100%;
 }
 .left-shadow-window{
 	grid-column-start: 3;
 	grid-column-end: 8;
+
 }
 .cont-out{
 	margin: 1em 1em 1em 1.5em;
@@ -146,8 +172,9 @@ header{
 	justify-content: center;
 	justify-content: center;
 	padding: 1em 0;
-	background: rgba(32, 32, 32, 0.6);
+	background: rgba(85, 85, 85, 0.85);
 	border-radius: 0.3em;
+/* 	box-shadow: -5px 10px 10px rgba(85, 85, 85, .6); */
 }
 .right-shadow-window a, .left-shadow-window a{
 	color: #fff;
@@ -172,6 +199,13 @@ header{
 .title-str span{
 	font-size: 0.67em;
 }
+.title-str h2{
+	font-weight: 100;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+
 .cont-out li{
 	color:#eee;
 }
@@ -206,7 +240,7 @@ header{
 .webtitle{
 	font-family: 'roboto';
 	font-size: 1.5em;
-	color: #1188CC;
+	color: #18C;
 	padding: 0;
 	margin: 0;
 	background: yellow;
@@ -223,10 +257,24 @@ header{
 footer{
 	height: 6em;
 	background: #555;
+
 }
 /* футер */
 
 /* outsoursing */
+.out-title{
+	grid-column-start: 1;
+	grid-column-end: 15;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+.out-title h1{
+	color: #aaa;
+	background: rgba(85, 85, 85, .9);
+	font-weight: 100;	
+	padding: 0.5em 1.5em;
+}
 .out-text{
 	display: grid;
 	grid-template-columns: 10% repeat(12, 1fr) 10%;
@@ -242,8 +290,111 @@ footer{
 	padding: 0 2em 1em;
 
 }
-/* outsoursing */
+/* end outsoursing */
+.dark-nav{
+	background: #555;
+	margin:0;
+}
+.dark-nav a{
+	color: #ddf;
+}
+.dark-nav li{
+	margin:0 2em;
+}
+.sub-back-abonent{
+	background: #555;
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	margin:0;
+	padding: 0;
+}
+.back-abonent{
+	grid-column-start: 1;
+	grid-column-end: 15;
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	background: url('../img/back-abonent.jpg') no-repeat;
+	background-size: 100%;
+	margin:0;
+	padding: 0;
+}
+.text-abonent{
+	grid-column-start: 3;
+	grid-column-end: 13;
+	background: rgba(85, 85, 85, .9);
+	padding: 1em 4em 1em 6em;
+	color:#dedede;
+/* 	font-size: 1.3em; */
+	font-family: 'Roboto';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
+	
+}
+.text-abonent p{
+	line-height: 2;
+}
+.p-title{
+	text-align: center;
+	font-size: 1.3em;
+	color:#F65D07;
+	margin: 1.4em 0 0 0;
+}
+.text-abonent h1{
+	font-weight: 100;
+	text-align: center;
+	margin: 0;
+	color: #F65D07;
+	font-size: 1.6em;
+}
+.text-abonent li{
+	color: #F65D07;
+}
+.text-abonent li p{
+	color: #dedede;
+}
+/* abonent */
+.calculator{
+	width: 100%;
+	display:grid;
+	grid-template-columns: 10% repeat(2, 1fr) 10%;
+	padding: 0;
+}
+.calculator input{
+	width: 5em;
+	height: 1.5em;
+}
+.calc-elem-name{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background: grey;
+	display: flex;
+	align-items: center;
+	padding: 0 2em;
+}
+.calc-elem-input{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	background: grey;
+	display: flex;
+	align-items: center;
+	padding: 0 1em;
+}
+.calc-result{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	display: flex;
+	background: grey;
+	justify-content: center;
+}
+
+/* end abonent */
+/* span */
+.italic{
+	font-style: italic;
+}
+/* end span */
  @font-face {
     font-family: Roboto; 
     src: url(../fonts/roboto.ttf); 
