@@ -46,11 +46,11 @@
 				<p>Орієнтовну вартість обслуговування вашої інфраструктури ви можете розрахувати за допомогою калькулятора на нашому сайті.</p>
 				<div class="calculator">
 					<div class="calc-elem-name"><p>Кількість офісів:</p></div>
-					<div class="calc-elem-input" ><input type="number" id="numberOfOffices"></div>
+					<div class="calc-elem-input" ><input type="number" id="numberOfOffices" min="1" max="3"> </div>
 					<div class="calc-elem-name"><p>Кількість серверів:</p></div>
-					<div class="calc-elem-input"><input type="number" id="numberOfServers"></div>
-					<div class="calc-elem-name"><p>Кількість компьютерів:</p></div>
-					<div class="calc-elem-input"><input type="number" id="numberOfComputers"></div>
+					<div class="calc-elem-input" ><input type="number" id="numberOfServers" min="0" max="10"></div>
+					<div class="calc-elem-name" ><p>Кількість компьютерів:</p></div>
+					<div class="calc-elem-input" ><input type="number" id="numberOfComputers" min="1" max="150"></div>
 					<div class="calc-elem-name"><p>АТС:</p></div>
 					<div class="calc-elem-input">
 						<p><input type="radio" name="ats" value="not">Нема<br>
@@ -59,6 +59,9 @@
 					</div>
 					<div class="calc-result">
 						
+					</div>
+					<div class="calc-result">
+						<button type = "button">Надіслати на пошту</button>
 					</div>
 				</div>
 				

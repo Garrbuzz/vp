@@ -40,6 +40,7 @@ window.onload = function(){
 		}
 	}
 	function calc(){
+	
 		let totalContent = document.querySelector('.calc-result');
 		let total = 0;
 		sumOf = numbOf.value*(basePriceOf+numbComp.value*8);
@@ -50,7 +51,7 @@ window.onload = function(){
 		console.log(sumServ);
 		sumATS = baseATS + numbComp.value*10;
 		total = Math.round((sumServ+sumComp+sumOf+sumATS)*100)/100;
-		totalContent.innerHTML = '<p>Підсумкова вартість</p>&nbsp&nbsp&nbsp&nbsp'+'<p>'+ total + '</p>';
+		totalContent.innerHTML = '<p>Підсумкова&nbspвартість:</p>'+ '&nbsp&nbsp&nbsp&nbsp<p><span>'+total+ '</span></p>&nbsp' + '<p>&nbsp&nbspгрн.</p>';
 		
 	}
 	
