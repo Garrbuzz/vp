@@ -3,6 +3,7 @@ window.onload = function(){
 	var numbServ = document.querySelector('#numberOfServers');
 	var numbComp = document.querySelector('#numberOfComputers');
 	var atsType = document.querySelectorAll('input[name="ats"]');
+	var sendButton = document.querySelector('.send-mail');
 	var sumOf;
 	var sumComp;
 	var ats = [0, 500, 400];
@@ -18,16 +19,19 @@ window.onload = function(){
 	atsType[0].checked=true;
 	atsType[0].value='not';
 	calc();
-	numbComp.onchange = function(event){
+	numbComp.oninput = function(event){
 		calc();
 	}
-	numbServ.onchange = function(event){
+	numbServ.oninput = function(event){
 		console.log(event);
 		calc();
 	}
-	numbOf.onchange = function(event){
+	numbOf.oninput = function(event){
 		calc();
 	} 
+	sendButton.onclick = function(event){
+		send(this);
+	}
 	for (i=0; i<atsType.length; i++){
 		
 		atsType[i].onchange = function(event){
@@ -40,7 +44,6 @@ window.onload = function(){
 		}
 	}
 	function calc(){
-	
 		let totalContent = document.querySelector('.calc-result');
 		let total = 0;
 		sumOf = numbOf.value*(basePriceOf+numbComp.value*8);
@@ -52,11 +55,5 @@ window.onload = function(){
 		sumATS = baseATS + numbComp.value*10;
 		total = Math.round((sumServ+sumComp+sumOf+sumATS)*100)/100;
 		totalContent.innerHTML = '<p>Підсумкова&nbspвартість:</p>'+ '&nbsp&nbsp&nbsp&nbsp<p><span>'+total+ '</span></p>&nbsp' + '<p>&nbsp&nbspгрн.</p>';
-		
 	}
-	
-
-
-	
-
 }
