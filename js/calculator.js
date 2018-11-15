@@ -20,6 +20,9 @@ window.onload = function(){
 	atsType[0].value='not';
 	calc();
 	numbComp.oninput = function(event){
+		if (numbComp.value>50) {
+			numbComp.value = 50;
+		}
 		calc();
 	}
 	numbServ.oninput = function(event){

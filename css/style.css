@@ -302,7 +302,7 @@ footer{
 	margin:0 2em;
 }
 .sub-back-abonent{
-	background: #555;
+	background: #789;
 	display: grid;
 	grid-template-columns: 10% repeat(12, 1fr) 10%;
 	margin:0;
@@ -321,7 +321,7 @@ footer{
 .text-abonent{
 	grid-column-start: 3;
 	grid-column-end: 13;
-	background: rgba(85, 85, 85, .9);
+	background: rgba(85, 85, 85, .7);
 	padding: 1em 4em 1em 6em;
 	color:#dedede;
 	font-family: 'Roboto';
@@ -360,10 +360,11 @@ footer{
 
 }
 .calculator input[type="number"]{
-	width: 2.5em;
+	width: 2.2em;
 	height: 1.5em;
+	border-radius: 0.2em;
+	border: none;
 	text-align: center;
-	
 	font-size: 1.25em;
 	color:#18C; 
 	font-weight: 600;
@@ -378,19 +379,22 @@ footer{
 .calc-elem-name{
 	grid-column-start: 2;
 	grid-column-end: 3;
-	
 }
 .calc-elem-input{
 	grid-column-start: 3;
 	grid-column-end: 4;
 }
-.calc-result{
+.calc-result, .calc-title{
 	grid-column-start: 2;
 	grid-column-end: 4;
 	display: flex;
 	background: rgba(85, 85, 85, .85);
 	justify-content: center;
 	align-items: center;
+}
+.calc-title h2{
+	color:#F65D07;
+	font-weight: 100;
 }
 .calc-result button{
 	margin: 0.5em 0 1.5em;
@@ -411,7 +415,6 @@ footer{
 	font-size: 1.25em;
 	color:#F65D07;
 }
-
 /* end abonent */
 /* span */
 .italic{

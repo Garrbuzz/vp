@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"po",
+				"pointer"
+			],
+			[
+				"dark",
+				"darkgreen"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"colu",
+				"column"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
 				"co",
 				"color"
 			],
 			[
 				"text-a",
 				"text-align"
-			],
-			[
-				"font",
-				"font-weight\tproperty"
 			],
 			[
 				"align",
@@ -484,7 +500,16 @@
 			"file": "obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 			"settings":
 			{
-				"buffer_size": 2964,
+				"buffer_size": 3119,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 6813,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -493,7 +518,16 @@
 			"file": "js/calculator.js",
 			"settings":
 			{
-				"buffer_size": 1063,
+				"buffer_size": 1533,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+			"settings":
+			{
+				"buffer_size": 3071,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -503,6 +537,15 @@
 			"settings":
 			{
 				"buffer_size": 3194,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "obslugovuvannya/abonentske.html",
+			"settings":
+			{
+				"buffer_size": 2428,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -549,8 +592,12 @@
 	},
 	"file_history":
 	[
-		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
 		"/E/OpServ/OSPanel/domains/vp/css/style.css",
+		"/E/OpServ/OSPanel/domains/learning/js/script.js",
+		"/E/OpServ/backup/vp/1411_2018/vp/js/calculator.js",
+		"/E/OpServ/OSPanel/domains/imla1/index.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/index.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/incidentne.html",
@@ -580,7 +627,6 @@
 		"/E/OpServ/OSPanel/domains/imla/css/style.css",
 		"/E/OpServ/OSPanel/domains/imla/index.html",
 		"/E/OpServ/OSPanel/domains/imla1/html/about.html",
-		"/E/OpServ/OSPanel/domains/imla1/index.html",
 		"/E/OpServ/OSPanel/domains/imla/js/script.js",
 		"/E/OpServ/OSPanel/domains/imla/html/blog.html",
 		"/E/OpServ/OSPanel/domains/imla/html/contacts.html",
@@ -809,10 +855,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 175.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -821,15 +867,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2964,
+						"buffer_size": 3119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2269,
-								2286
+								2340,
+								2340
 							]
 						],
 						"settings":
@@ -838,36 +884,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1125.0,
+						"translation.y": 1100.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/calculator.js",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1063,
+						"buffer_size": 6813,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								557,
-								557
+								5863,
+								5863
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 75.0,
+						"translation.y": 8810.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -875,6 +921,63 @@
 				},
 				{
 					"buffer": 3,
+					"file": "js/calculator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 15.0,
+						"translation.y": 525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1123,
+								1123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "obslugovuvannya.html",
 					"semi_transient": false,
 					"settings":
@@ -886,8 +989,8 @@
 						"selection":
 						[
 							[
-								767,
-								768
+								1645,
+								1686
 							]
 						],
 						"settings":
@@ -896,10 +999,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 1125.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "obslugovuvannya/abonentske.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1120,
+								1120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
