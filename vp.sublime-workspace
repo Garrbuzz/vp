@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
 				"po",
 				"pointer"
 			],
@@ -500,7 +504,7 @@
 			"file": "obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 			"settings":
 			{
-				"buffer_size": 3119,
+				"buffer_size": 3608,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -509,7 +513,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 6813,
+				"buffer_size": 6912,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -518,7 +522,7 @@
 			"file": "js/calculator.js",
 			"settings":
 			{
-				"buffer_size": 1533,
+				"buffer_size": 1686,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -829,7 +833,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -867,15 +871,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3119,
+						"buffer_size": 3608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2340,
-								2340
+								3218,
+								3218
 							]
 						],
 						"settings":
@@ -884,10 +888,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1100.0,
+						"translation.y": 1745.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -896,15 +900,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6813,
+						"buffer_size": 6912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5863,
-								5863
+								4794,
+								4794
 							]
 						],
 						"settings":
@@ -913,10 +917,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8810.0,
+						"translation.y": 7385.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -925,26 +929,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1533,
+						"buffer_size": 1686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								961,
-								961
+								658,
+								658
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": 15.0,
-						"translation.y": 525.0,
+						"translation.x": 0.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
