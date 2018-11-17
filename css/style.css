@@ -421,6 +421,67 @@ footer{
 	font-style: italic;
 }
 /* end span */
+/* modal window */
+.modal{
+	display: none;
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	/* height: 50%; */
+	background: #fff;
+	z-index: 1001;
+
+}
+.overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .8);
+	z-index: 1000;
+}
+.overlay:hover{
+	cursor: pointer;
+}
+.visible{
+	display: block;
+}
+.modal-cover{
+	display: none;
+}
+.modal-for-mprice-oursoursing{
+	margin: 2em 15% 0 15%;
+	font-family: 'Roboto';
+}
+.modal-for-mprice-oursoursing input{
+	width: 100%;
+	border: none;
+	outline:none;
+	/* background: #eee; */
+	font-size: 1.25em;
+	padding: 0.2em;
+	margin-bottom: 2em;
+/* 	color: #18c; */
+	color:#F65D07;
+	border-bottom: solid;
+	border-color: #ddd;
+	border-width: thin;
+}
+.modal-for-mprice-oursoursing p{
+	font-size: 1.75em;
+	margin-bottom: 0.3em;
+/* 	color:#F65D07; */
+	color: #18c;
+}
+.modal-for-mprice-oursoursing button{
+	margin-bottom: 1.5em;
+
+}
+
+/* end modal window */
  @font-face {
     font-family: Roboto; 
     src: url(../fonts/roboto.ttf); 

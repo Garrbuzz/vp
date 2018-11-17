@@ -13,6 +13,7 @@ window.onload = function(){
 	var basePriceComp = 400;
 	var basePriceOf = 400;
 	var basePriceServ = 600;
+	var mv = new(modalWindow);
 	numbOf.value=1;
 	numbServ.value = 0;
 	numbComp.value = 1;
@@ -33,7 +34,8 @@ window.onload = function(){
 		calc();
 	} 
 	sendButton.onclick = function(event){
-		send(this);
+		var cont=document.querySelector('.modal-cover');
+		mv.open(cont.innerHTML);
 	}
 	for (i=0; i<atsType.length; i++){
 		
