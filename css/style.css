@@ -2,6 +2,15 @@ body{
 	margin: 0;
 	padding: 0;
 }
+/* layout */
+.grid-10-12{
+	display: grid;
+	grid-template-columns: 10% repeat(12, 1fr) 10%;
+}
+/* end layout */
+
+
+
 /* header */
 header, .nav-cont{
 	display: grid;
@@ -321,7 +330,7 @@ footer{
 .text-abonent{
 	grid-column-start: 3;
 	grid-column-end: 13;
-	background: rgba(85, 85, 85, .7);
+	background: rgba(85, 85, 85, .9);
 	padding: 1em 4em 1em 6em;
 	color:#dedede;
 	font-family: 'Roboto';
@@ -338,7 +347,7 @@ footer{
 	color:#F65D07;
 	margin: 1.4em 0 0 0;
 }
-.text-abonent h1{
+.text-abonent h1, .incident-content h1{
 	font-weight: 100;
 	text-align: center;
 	margin: 0;
@@ -425,7 +434,7 @@ footer{
 .modal{
 	display: none;
 	position: fixed;
-	top: 25%;
+	top: 15%;
 	left: 25%;
 	width: 50%;
 	/* height: 50%; */
@@ -461,11 +470,12 @@ footer{
 	border: none;
 	outline:none;
 	/* background: #eee; */
-	font-size: 1.25em;
+	font-size: 1.5em;
 	padding: 0.2em;
 	margin-bottom: 2em;
-/* 	color: #18c; */
-	color:#F65D07;
+	
+
+	color:#555;
 	border-bottom: solid;
 	border-color: #ddd;
 	border-width: thin;
@@ -473,15 +483,72 @@ footer{
 .modal-for-mprice-oursoursing p{
 	font-size: 1.75em;
 	margin-bottom: 0.3em;
-/* 	color:#F65D07; */
-	color: #18c;
+	color:#F65D07;
+	/* color: #18c; */
+}
+.send-button{
+	display: flex;
+	justify-content: center;
 }
 .modal-for-mprice-oursoursing button{
 	margin-bottom: 1.5em;
+	padding: 0.25em 1.5em;
+	background: #18c;
+	font-size: 1.25em;
+	border: none;
+	border-radius: 3px;
 
+	
 }
 
 /* end modal window */
+
+
+/* incident */
+.incident-content{
+	grid-column-start: 4;
+	grid-column-end: 12;
+	font-family: 'Roboto';
+	padding: 0 4%;
+}
+
+.incident-content p{
+	line-height: 1.75em;
+	color: #335;
+}
+.incident-content h1{
+	margin-top: 1em;
+	
+}
+.incident-content h2{
+	font-weight: 100;
+	text-align: center;
+	margin: 1em 0 0.5em;
+	color: #F65D07;
+	font-size: 1.4em;
+}
+.incident-content h3{
+	font-weight: 100;
+	text-align: center;
+	margin: 1em 0 0.5em;
+	color: #18c;
+	font-size: 1.3em;
+}
+.incident-content table{
+	width: 100%;
+	color: #335;
+}
+.incident-content td{
+	padding: 0.5em;
+}
+
+/* .incident-content td:first-child {
+	width: 70%;
+}
+.incident-content td:last-child {
+	width: 30%;
+} */
+/* incident */
  @font-face {
     font-family: Roboto; 
     src: url(../fonts/roboto.ttf); 
