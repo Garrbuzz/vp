@@ -18,7 +18,7 @@ header, .nav-cont{
 	font-family: 'roboto';
 }
 header{	
-	background: #eee;
+	/* background: #eee; */
 	/* background: url('../img/header.jpg'); */
 	background-size: cover; 
 	padding-top: 1em;
@@ -60,8 +60,6 @@ header{
 	grid-column-end: 15;
 	display: flex;
 	justify-content: center;
-/* 	color: #1188CC; */
-/* 	color: #0460b7; */
 }
 .vp{
 	grid-row-start: 2;
@@ -99,7 +97,7 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
-	background: #eee;
+	/* background: #eee; */
 }
 
 .breadcrumbs li{
@@ -548,7 +546,7 @@ footer{
 	color: #335;
 }
 .incident-content td{
-	background: #eee;
+	background: #efefef;
 	padding: 0.5em;
 }
 .incident-content td:last-child{
