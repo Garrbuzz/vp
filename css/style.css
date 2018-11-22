@@ -7,10 +7,11 @@ body{
 	display: grid;
 	grid-template-columns: 10% repeat(12, 1fr) 10%;
 }
+.grid-10-13{
+	display: grid;
+	grid-template-columns: 10%  1fr repeat(3, minmax(3em, auto))  1fr repeat(3, minmax(3em, auto)) 1fr repeat(3, minmax(3em, auto)) 1fr 10%;
+}
 /* end layout */
-
-
-
 /* header */
 header, .nav-cont{
 	display: grid;
@@ -97,16 +98,14 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
-	/* background: #eee; */
 }
-
 .breadcrumbs li{
 	float: left;
 	list-style-type:none;
 	font-family: 'roboto';
 	font-size: 0.8em;
 	padding:0em 0.3em 0em 0.3em;
-	color: #1188CC;
+	color: #18C;
 }
 .breadcrumbs li:last-child{
 	color: #075599;
@@ -148,7 +147,6 @@ header{
 	font-family: 'roboto';
 	padding: 1.5em 0;
 }
-
 .str-outsourcing{
 	background: url('../img/back-index.jpg');
 	background-size: 100%;
@@ -174,14 +172,12 @@ header{
 	grid-column-end: 13;
 }
 .right-shadow-window, .left-shadow-window{
-	/* display: flex; */
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: center;
 	padding: 1em 0;
 	background: rgba(85, 85, 85, 0.85);
 	border-radius: 0.3em;
-/* 	box-shadow: -5px 10px 10px rgba(85, 85, 85, .6); */
 }
 .right-shadow-window a, .left-shadow-window a{
 	color: #fff;
@@ -212,7 +208,6 @@ header{
 	padding: 0;
 	margin: 0;
 }
-
 .cont-out li{
 	color:#eee;
 }
@@ -233,7 +228,6 @@ header{
 	padding: 2em 0 0;
 	margin: 0;
 }
-
 .new-0{
 	padding: 0;
 }
@@ -264,10 +258,8 @@ header{
 footer{
 	height: 6em;
 	background: #555;
-
 }
 /* футер */
-
 /* outsoursing */
 .out-title{
 	grid-column-start: 1;
@@ -295,7 +287,6 @@ footer{
 	grid-column-start: 4;
 	grid-column-end: 12;
 	padding: 0 2em 1em;
-
 }
 /* end outsoursing */
 .dark-nav{
@@ -364,7 +355,6 @@ footer{
 	display:grid;
 	grid-template-columns: 10% repeat(2, 1fr) 10%;
 	padding: 0;
-
 }
 .calculator input[type="number"]{
 	width: 2.2em;
@@ -438,7 +428,6 @@ footer{
 	/* height: 50%; */
 	background: #fff;
 	z-index: 1001;
-
 }
 .overlay{
 	display: none;
@@ -480,14 +469,10 @@ footer{
 ::-moz-placeholder          {color:#ccc;}/* Firefox 19+ */
 :-moz-placeholder           {color:#ccc;}/* Firefox 18- */
 :-ms-input-placeholder      {color:#ccc;}
-/* .modal-for-mprice-oursoursing input[placeholder]{
-	color: #bbb;
-} */
 .modal-for-mprice-oursoursing p{
 	font-size: 1.75em;
 	margin-bottom: 0.3em;
 	color:#F65D07;
-	/* color: #18c; */
 }
 .send-button{
 	display: flex;
@@ -500,13 +485,8 @@ footer{
 	font-size: 1.25em;
 	border: none;
 	border-radius: 3px;
-
-	
 }
-
 /* end modal window */
-
-
 /* incident */
 .incident-content{
 	grid-column-start: 4;
@@ -514,14 +494,12 @@ footer{
 	font-family: 'Roboto';
 	padding: 0 4%;
 }
-
 .incident-content p{
 	line-height: 1.75em;
 	color: #335;
 }
 .incident-content h1{
 	margin-top: 1em;
-	
 }
 .incident-content h2, h4{
 	font-weight: 100;
@@ -554,14 +532,68 @@ footer{
 	text-align: right;
 	padding-right: 1em;
 }
-
-/* .incident-content td:first-child {
-	width: 70%;
-}
-.incident-content td:last-child {
-	width: 30%;
-} */
 /* incident */
+/* creating */
+.nav-creating{
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+	margin: 1em auto 0;
+}
+.nav-creating-network{
+	background: url('../img/creating-menu-back.jpg');
+}
+.nav-creating-servers{
+	background: url('../img/creating-servers-back.jpg');
+}
+.nav-creating-proektuvannya{
+	background: url('../img/creating-servers-back.jpg');
+}
+.nav-creating-ipphone{
+	background: url('../img/creating-servers-back.jpg');
+}
+.nav-creating-video{
+	background: url('../img/creating-servers-back.jpg');
+}
+.nav-creating-backup{
+	background: url('../img/creating-servers-back.jpg');
+}
+.nav-creating-description{
+	margin: 1em auto 1.5em;
+	display: flex;
+	justify-content: center;
+}
+.nav-creating-description p{
+	margin:0 0 1em;
+}
+.nav-creating-1{
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-auto-columns: minmax(100px, auto);
+}
+.nav-creating-2{
+	grid-column-start: 7;
+	grid-column-end: 10;
+	grid-auto-columns: minmax(100px, auto);
+}
+.nav-creating-3{
+	grid-column-start: 11;
+	grid-column-end: 14;
+	grid-auto-columns: minmax(100px, auto);
+}
+.in-work{
+	grid-column: 3/13;
+	height: 33em;
+	display: flex;
+	justify-content: center;	
+}
+.in-work p{
+	font-family: Roboto;
+	font-size: 2em;
+	color: #F65D07;
+	margin-top: 3em;
+}
+/* end creating */
  @font-face {
     font-family: Roboto; 
     src: url(../fonts/roboto.ttf); 
