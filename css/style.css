@@ -9,7 +9,7 @@ body{
 }
 .grid-10-13{
 	display: grid;
-	grid-template-columns: 10%  1fr repeat(3, minmax(3em, auto))  1fr repeat(3, minmax(3em, auto)) 1fr repeat(3, minmax(3em, auto)) 1fr 10%;
+	grid-template-columns: 10%  1fr repeat(3, minmax(3em, 1fr))  1fr repeat(3, minmax(3em, 1fr)) 1fr repeat(3, minmax(3em, 1fr)) 1fr 10%;
 }
 /* end layout */
 /* header */
@@ -565,21 +565,19 @@ footer{
 }
 .nav-creating-description p{
 	margin:0 0 1em;
+	font-family: Roboto;
 }
 .nav-creating-1{
 	grid-column-start: 3;
 	grid-column-end: 6;
-	grid-auto-columns: minmax(100px, auto);
 }
 .nav-creating-2{
 	grid-column-start: 7;
 	grid-column-end: 10;
-	grid-auto-columns: minmax(100px, auto);
 }
 .nav-creating-3{
 	grid-column-start: 11;
 	grid-column-end: 14;
-	grid-auto-columns: minmax(100px, auto);
 }
 .in-work{
 	grid-column: 3/13;
