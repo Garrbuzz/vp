@@ -137,7 +137,12 @@ header{
 }
 .nav a{
 	color: #F65D07;
+	transition: color .3s linear;
 }
+.nav a:hover{
+	color: yellow;
+}
+
 /* навігація */
 /* інфраструктура */
 .structure{
@@ -167,6 +172,15 @@ header{
 .cont-out li{
 	margin-bottom: 0.5em;
 }
+.cont-out a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0.2em 0;
+	transition: color .3s linear;
+}
+.cont-out a:hover{
+	color: yellow;
+}
 .right-shadow-window{
 	grid-column-start: 8;
 	grid-column-end: 13;
@@ -179,18 +193,25 @@ header{
 	background: rgba(85, 85, 85, 0.85);
 	border-radius: 0.3em;
 }
-.right-shadow-window a, .left-shadow-window a{
-	color: #fff;
+.title-str a{
+	color: #F65D07;
 	text-decoration: none;
 	padding: 0.2em 0;
+	transition: color .3s linear;
 }
+.title-str a:hover{
+	color: yellow;
+}
+
+
+
 .right-shadow-window p, .left-shadow-window p{
 	margin: 0;
 	padding: 0;
 }
 .st1{
 	font-size: 1.5em;
-	color: #F65D07;
+	
 }
 .title-str{
 	text-align: center;
@@ -208,9 +229,9 @@ header{
 	padding: 0;
 	margin: 0;
 }
-.cont-out li{
+/* .cont-out li{
 	color:#eee;
-}
+} */
 /* інфраструктура */
 /* сайти */
 .web{
@@ -231,6 +252,16 @@ header{
 .new-0{
 	padding: 0;
 }
+.new a{
+	color: #18C;
+	background: yellow;
+	transition: background .3s linear, color .3s linear; 
+
+}
+.new a:hover{
+	background:black;
+	color: yellow;
+}
 .p_new{
 	font-family: 'roboto';
 	font-size: 2em;
@@ -241,10 +272,10 @@ header{
 .webtitle{
 	font-family: 'roboto';
 	font-size: 1.5em;
-	color: #18C;
+	
 	padding: 0;
 	margin: 0;
-	background: yellow;
+
 }
 .webimg{
 	grid-column-start: 2;
