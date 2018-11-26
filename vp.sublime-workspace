@@ -509,19 +509,10 @@
 			}
 		},
 		{
-			"file": "stvorennya.html",
-			"settings":
-			{
-				"buffer_size": 3060,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "obslugovuvannya/abonentske.html",
 			"settings":
 			{
-				"buffer_size": 3455,
+				"buffer_size": 4531,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -530,7 +521,16 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 10873,
+				"buffer_size": 10890,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stvorennya.html",
+			"settings":
+			{
+				"buffer_size": 3048,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -539,16 +539,25 @@
 			"file": "obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 			"settings":
 			{
-				"buffer_size": 4232,
+				"buffer_size": 4294,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/calculator.js",
+			"file": "obslugovuvannya/abonentske/korysna-informaciya.html",
 			"settings":
 			{
-				"buffer_size": 1778,
+				"buffer_size": 1965,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+			"settings":
+			{
+				"buffer_size": 3391,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -595,6 +604,10 @@
 	},
 	"file_history":
 	[
+		"/H/OpServ/OSPanel/domains/vp/stvorennya.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
+		"/H/OpServ/OSPanel/domains/vp/js/calculator.js",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
@@ -706,7 +719,7 @@
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -720,6 +733,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav-a",
 			".dark-nav a",
 			"nav-abonent",
 			"work",
@@ -845,7 +859,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -874,97 +888,24 @@
 						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "stvorennya.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3060,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1377,
-								1377
-							],
-							[
-								1466,
-								1466
-							],
-							[
-								1529,
-								1529
-							],
-							[
-								1692,
-								1692
-							],
-							[
-								1749,
-								1749
-							],
-							[
-								1909,
-								1909
-							],
-							[
-								1967,
-								1967
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 750.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "obslugovuvannya/abonentske.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3455,
+						"buffer_size": 4531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1830,
-								1830
-							],
-							[
-								1895,
-								1895
-							],
-							[
-								2128,
-								2128
-							],
-							[
-								2187,
-								2187
-							],
-							[
-								2394,
-								2394
-							],
-							[
-								2454,
-								2454
+								2111,
+								2111
 							]
 						],
 						"settings":
@@ -973,27 +914,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1261.0,
+						"translation.y": 931.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10873,
+						"buffer_size": 10890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9682,
-								9694
+								10259,
+								10283
 							]
 						],
 						"settings":
@@ -1002,27 +943,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 14100.0,
+						"translation.y": 13513.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
+					"buffer": 3,
+					"file": "stvorennya.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4232,
+						"buffer_size": 3048,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1374,
-								1374
+								1498,
+								1530
 							]
 						],
 						"settings":
@@ -1031,39 +972,97 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 690.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "js/calculator.js",
+					"buffer": 4,
+					"file": "obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1778,
+						"buffer_size": 4294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1431,
-								1431
+								865,
+								865
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 529.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "obslugovuvannya/abonentske/korysna-informaciya.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1071,7 +1070,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1108,7 +1107,7 @@
 	"project": "vp.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":

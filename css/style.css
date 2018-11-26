@@ -358,7 +358,7 @@ footer{
 	padding: 0;
 }
 .nav-abonent{
-	margin-top: 2em;
+	margin: 3em 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -377,6 +377,7 @@ footer{
 .p-title{
 	text-align: center;
 	font-size: 1.3em;
+	font-weight: 100;
 	color:#F65D07;
 	margin: 1.4em 0 0 0;
 }
@@ -578,7 +579,7 @@ footer{
 }
 /* incident */
 /* creating */
-.nav-cirkle-8{
+.nav-circle-8{
 	width: 8em;
 	height: 8em;
 	border-radius: 50%;
