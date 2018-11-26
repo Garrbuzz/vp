@@ -53,7 +53,7 @@ window.onload = function(){
 		let total = 0;
 		sumOf = numbOf.value*(basePriceOf+numbComp.value*8);
 		console.log(sumOf);
-		sumComp = numbComp.value*(basePriceComp-numbComp.value*3.6);
+		sumComp = numbComp.value*(basePriceComp-numbComp.value*3.2);
 		console.log(sumComp);
 		sumServ = numbServ.value*basePriceServ;
 		console.log(sumServ);

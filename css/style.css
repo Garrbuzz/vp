@@ -3,6 +3,10 @@ body{
 	padding: 0;
 }
 /* layout */
+.grid-10-11{
+	display: grid;
+	grid-template-columns:   repeat(3, minmax(3em, 1fr))  1fr repeat(3, minmax(3em, 1fr)) 1fr repeat(3, minmax(3em, 1fr));
+}
 .grid-10-12{
 	display: grid;
 	grid-template-columns: 10% repeat(12, 1fr) 10%;
@@ -142,7 +146,6 @@ header{
 .nav a:hover{
 	color: yellow;
 }
-
 /* навігація */
 /* інфраструктура */
 .structure{
@@ -163,7 +166,6 @@ header{
 .left-shadow-window{
 	grid-column-start: 3;
 	grid-column-end: 8;
-
 }
 .cont-out{
 	margin: 1em 1em 1em 1.5em;
@@ -256,7 +258,6 @@ header{
 	color: #18C;
 	background: yellow;
 	transition: background .3s linear, color .3s linear; 
-
 }
 .new a:hover{
 	background:black;
@@ -324,16 +325,25 @@ footer{
 	background: #555;
 	margin:0;
 }
-.dark-nav a{
+.dark-nav a, .nav-abonent-item a{
 	color: #ddf;
+	transition: color .3s linear;
+}
+.nav-abonent-item a:hover{
+	color: yellow;
 }
 .dark-nav li{
 	margin:0 2em;
 }
+.nav-abonent-item{
+	width: 30%;
+	min-width: 12em;
+}
+.nav-abonent-item p{
+	text-align: center;
+}
 .sub-back-abonent{
-	background: #789;
-	display: grid;
-	grid-template-columns: 10% repeat(12, 1fr) 10%;
+	background: #234;
 	margin:0;
 	padding: 0;
 }
@@ -347,6 +357,12 @@ footer{
 	margin:0;
 	padding: 0;
 }
+.nav-abonent{
+	margin-top: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 .text-abonent{
 	grid-column-start: 3;
 	grid-column-end: 13;
@@ -354,9 +370,6 @@ footer{
 	padding: 1em 4em 1em 6em;
 	color:#dedede;
 	font-family: 'Roboto';
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 .text-abonent p{
 	line-height: 2;
@@ -380,7 +393,7 @@ footer{
 .text-abonent li p{
 	color: #dedede;
 }
-/* abonent */
+/* end abonent */
 .calculator{
 	width: 100%;
 	display:grid;
@@ -565,7 +578,7 @@ footer{
 }
 /* incident */
 /* creating */
-.nav-creating{
+.nav-cirkle-8{
 	width: 8em;
 	height: 8em;
 	border-radius: 50%;
