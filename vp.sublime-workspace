@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"rgb",
+				"rgba()"
+			],
+			[
 				"tra",
 				"transition\tproperty"
 			],
@@ -503,16 +507,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2725,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "obslugovuvannya.html",
-			"settings":
-			{
-				"buffer_size": 3693,
+				"buffer_size": 3043,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -521,16 +516,16 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 10963,
+				"buffer_size": 11114,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/calculator.js",
+			"file": "stvorennya.html",
 			"settings":
 			{
-				"buffer_size": 1778,
+				"buffer_size": 3365,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -577,11 +572,17 @@
 	},
 	"file_history":
 	[
-		"/E/OpServ/OSPanel/domains/vp/css/style.css",
-		"/E/OpServ/OSPanel/domains/vp/js/calculator.js",
-		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
-		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/service-center.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/incidentne.html",
+		"/H/OpServ/OSPanel/domains/vp/stvorennya.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya.html",
+		"/H/OpServ/OSPanel/domains/vp/js/calculator.js",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya/zberejennya-danyh.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya/videosposteregennya.html",
@@ -589,9 +590,12 @@
 		"/E/OpServ/OSPanel/domains/vp/stvorennya/proektuvannya.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya/ip-telfoniya.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya/network.html",
+		"/E/OpServ/OSPanel/domains/vp/css/style.css",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/incidentne.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/js/calculator.js",
 		"/E/OpServ/OSPanel/domains/learning/js/script.js",
 		"/E/OpServ/backup/vp/1411_2018/vp/js/calculator.js",
 		"/E/OpServ/OSPanel/domains/imla1/index.html",
@@ -688,7 +692,7 @@
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -702,7 +706,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"out-title",
+			"nav-a",
 			".dark-nav a",
 			"nav-abonent",
 			"work",
@@ -828,7 +832,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -837,15 +841,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2725,
+						"buffer_size": 3043,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								405,
+								405
 							]
 						],
 						"settings":
@@ -854,7 +858,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 552.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -862,48 +866,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "obslugovuvannya.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2146,
-								2146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 375.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10963,
+						"buffer_size": 11114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5055,
-								5055
+								2289,
+								2289
 							]
 						],
 						"settings":
@@ -912,39 +887,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7025.0,
+						"translation.y": 2496.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "js/calculator.js",
+					"buffer": 2,
+					"file": "stvorennya.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1778,
+						"buffer_size": 3365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1822,
+								1846
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 525.0,
+						"translation.y": 759.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -952,7 +927,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -989,7 +964,7 @@
 	"project": "vp.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":

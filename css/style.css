@@ -117,13 +117,14 @@ header{
 	border-radius: 1em;
 }
 
-.breadcrumbs a{
+.breadcrumbs a, .nav-creating-description a{
 	color: #1188CC;
 	text-decoration: none;
 	transition: background .3s ease-in-out;
 }
-.breadcrumbs a:hover{
+.breadcrumbs a:hover, .nav-creating-description a:hover{
 	background: yellow;
+	text-decoration: underline;
 }
 .nav{
 	grid-column-start: 5;
@@ -182,6 +183,7 @@ header{
 }
 .cont-out a:hover{
 	color: yellow;
+	text-decoration:underline;
 }
 .right-shadow-window{
 	grid-column-start: 8;
@@ -203,6 +205,8 @@ header{
 }
 .title-str a:hover{
 	color: yellow;
+	text-decoration:underline;
+	
 }
 .right-shadow-window p, .left-shadow-window p{
 	margin: 0;
