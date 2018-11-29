@@ -60,16 +60,15 @@ header{
 	font-size: 1.5em;
 	color: #F65D07;
 }
-.vp, .vp1{
+.vp, .vp1, .vp_about{
 	grid-column-start: 1;
 	grid-column-end: 15;
 	display: flex;
 	justify-content: center;
 }
-.vp{
+.vp, .vp_about{
 	grid-row-start: 2;
 	grid-row-end: 3;
-	color: #1188CC;	
 }
 .vp1{
 	grid-row-start: 3;
@@ -86,6 +85,7 @@ header{
 	font-size: 2em;
 	margin: 0.5em 0 0;
 	font-weight: bold;
+	color: #1188CC;	
 }
 .vp1 h1{
 	font-weight: 100;
@@ -641,6 +641,34 @@ footer{
 	margin-top: 3em;
 }
 /* end creating */
+.about, .about-title{
+	grid-column: 3/13;
+}
+.vp_about h1{
+	font-family: Roboto;
+	font-size: 2em;
+	margin: 0.5em 0 0;
+	font-weight: bold;
+	color: #1188CC;	
+}
+.vp_about a{
+	text-decoration: none;
+}
+.about p{
+	font-family: Roboto;
+	line-height: 1.75em;
+	margin: 0.5em 15%;
+}
+.about-title h2{
+	font-family: Roboto;
+	font-weight: 100;
+	text-align: center;
+	margin: 1em 0 0.5em;
+	color: #F65D07;
+
+}
+
+/* end about */
  @font-face {
     font-family: Roboto; 
     src: url(../fonts/roboto.ttf); 
