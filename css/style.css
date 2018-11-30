@@ -630,15 +630,22 @@ footer{
 }
 .in-work{
 	grid-column: 3/13;
-	height: 33em;
+	/* height: 5em; */
 	display: flex;
 	justify-content: center;	
+}
+.in-work h1{
+	font-family: Roboto;
+	font-size: 2em;
+	color: #F65D07;
+	margin-top:0;
+	font-weight: 100;
 }
 .in-work p{
 	font-family: Roboto;
 	font-size: 2em;
-	color: #F65D07;
-	margin-top: 3em;
+	color: #17c;
+	margin:0 0 12em;
 }
 /* end creating */
 .about, .about-title{
