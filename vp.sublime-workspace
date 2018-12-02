@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"align-items"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
 				"rgb",
 				"rgba()"
 			],
@@ -236,10 +244,6 @@
 				"animation-duration"
 			],
 			[
-				"ba",
-				"background\tproperty"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -302,10 +306,6 @@
 			[
 				"s",
 				"src\tAttr"
-			],
-			[
-				"a",
-				"array"
 			],
 			[
 				"pr",
@@ -507,16 +507,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3043,
+				"buffer_size": 3080,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "about.html",
+			"file": "obslugovuvannya/abonentske.html",
 			"settings":
 			{
-				"buffer_size": 1692,
+				"buffer_size": 7006,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "obslugovuvannya/incidentne.html",
+			"settings":
+			{
+				"buffer_size": 4116,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -525,7 +534,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 11546,
+				"buffer_size": 12129,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -572,20 +581,23 @@
 	},
 	"file_history":
 	[
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/incidentne.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
+		"/H/OpServ/OSPanel/domains/vp/stvorennya.html",
+		"/H/OpServ/OSPanel/domains/vp/about.html",
+		"/H/OpServ/OSPanel/domains/vp/contacts.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/service-center.html",
+		"/H/OpServ/OSPanel/domains/vp/webdesign.html",
+		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
 		"/H/OpServ/OSPanel/domains/vp/stvorennya/network.html",
 		"/H/OpServ/OSPanel/domains/vp/stvorennya/proektuvannya.html",
 		"/H/OpServ/OSPanel/domains/vp/stvorennya/servers.html",
 		"/H/OpServ/OSPanel/domains/vp/stvorennya/videosposteregennya.html",
 		"/H/OpServ/OSPanel/domains/vp/stvorennya/zberejennya-danyh.html",
 		"/H/OpServ/OSPanel/domains/vp/stvorennya/ip-telfoniya.html",
-		"/H/OpServ/OSPanel/domains/vp/stvorennya.html",
-		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
-		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
 		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
-		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/service-center.html",
-		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/incidentne.html",
-		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
-		"/H/OpServ/OSPanel/domains/vp/obslugovuvannya.html",
 		"/H/OpServ/OSPanel/domains/vp/js/calculator.js",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya.html",
 		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
@@ -712,6 +724,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"abonent",
+			"incident-content",
+			"serv",
 			"h2",
 			".title-str",
 			"h2",
@@ -841,7 +856,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -850,15 +865,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3043,
+						"buffer_size": 3080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								405,
-								405
+								2479,
+								2479
 							]
 						],
 						"settings":
@@ -867,27 +882,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "obslugovuvannya/abonentske.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2906,
+								2906
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "about.html",
+					"buffer": 2,
+					"file": "obslugovuvannya/incidentne.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1692,
+						"buffer_size": 4116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								146
+								1428,
+								1444
 							]
 						],
 						"settings":
@@ -896,27 +940,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 897.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11546,
+						"buffer_size": 12129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11449,
-								11449
+								8297,
+								8297
 							]
 						],
 						"settings":
@@ -925,7 +969,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 14584.0,
+						"translation.y": 10822.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

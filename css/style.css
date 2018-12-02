@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'roboto';
 }
 /* layout */
 .grid-10-11{
@@ -23,8 +24,6 @@ header, .nav-cont{
 	font-family: 'roboto';
 }
 header{	
-	/* background: #eee; */
-	/* background: url('../img/header.jpg'); */
 	background-size: cover; 
 	padding-top: 1em;
 } 
@@ -324,6 +323,27 @@ footer{
 	grid-column-end: 12;
 	padding: 0 2em 1em;
 }
+.service-back{
+	grid-column: 4/12;
+/* 	background: url('../img/back-service.jpg');
+	background-size: 100%; */
+	margin: 0.5em 0;
+}
+.service{
+/* 	background: rgba(85, 85, 85, .7); */
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+.service ul{
+	padding: 2em;
+}
+.service li{
+	color: /* #F65D07 */#334;
+	margin: 0.5em;
+	list-style-type: circle;
+}
+
 /* end outsoursing */
 .dark-nav{
 	background: #555;
@@ -377,6 +397,11 @@ footer{
 }
 .text-abonent p{
 	line-height: 2;
+}
+.text-abonent h3{
+	font-weight: 100;
+	color: #18c;
+	text-align: center;
 }
 .p-title{
 	text-align: center;
@@ -460,6 +485,12 @@ footer{
 .calc-result span{
 	font-size: 1.25em;
 	color:#F65D07;
+}
+.abonent-includes{
+	background: #efefef;
+	color: #335;
+	margin-top: 2em;
+	padding: 0.5em 2em;
 }
 /* end abonent */
 /* span */
