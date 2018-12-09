@@ -1,7 +1,6 @@
 function send(n){
 		alert(n);
 }
-
 function modalWindow () {
 	this.modal=document.querySelector('.modal');
 	this.overlay=document.querySelector('.overlay');
@@ -17,4 +16,4 @@ function modalWindow () {
 	}
 	popup.overlay.onclick = popup.close;
 
-}
+}             

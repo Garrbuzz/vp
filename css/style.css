@@ -558,6 +558,9 @@ footer{
 	display: flex;
 	justify-content: center;
 }
+.send-button button:hover{
+	cursor: pointer;
+}
 .modal-for-mprice-oursoursing button{
 	margin-bottom: 1.5em;
 	padding: 0.25em 1.5em;
@@ -703,7 +706,9 @@ footer{
 	text-align: center;
 	margin: 1em 0 0.5em;
 	color: #F65D07;
+
 }
+
 /* end about */
  @font-face {
     font-family: Roboto; 
