@@ -502,10 +502,9 @@ footer{
 .modal{
 	display: none;
 	position: fixed;
-	top: 15%;
+	top: 7.5%;
 	left: 25%;
 	width: 50%;
-	/* height: 50%; */
 	background: #fff;
 	z-index: 1001;
 }
@@ -529,7 +528,7 @@ footer{
 	display: none;
 }
 .modal-for-mprice-oursoursing{
-	margin: 2em 15% 0 15%;
+	margin: 0 15%;
 	font-family: 'Roboto';
 }
 .modal-for-mprice-oursoursing input{
@@ -539,7 +538,7 @@ footer{
 	/* background: #eee; */
 	font-size: 1.5em;
 	padding: 0.2em;
-	margin-bottom: 2em;
+	margin-bottom: 1.75em;
 	color:#555;
 	border-bottom: solid;
 	border-color: #ddd;
@@ -560,6 +559,8 @@ footer{
 }
 .send-button button:hover{
 	cursor: pointer;
+	box-shadow: 5px 10px 30px grey;
+	color: yellow;
 }
 .modal-for-mprice-oursoursing button{
 	margin-bottom: 1.5em;
@@ -568,6 +569,35 @@ footer{
 	font-size: 1.25em;
 	border: none;
 	border-radius: 3px;
+	transition: color .3s linear, box-shadow .3s linear;
+}
+.x{
+	position: absolute;
+	height: 2em;
+	width: 2em;
+	top: -2em;
+	right: -2em;
+	background: black;
+	border-radius: 50%;
+	border: 1px #aaa solid;
+	text-align: center;
+}
+.x:before, .x:after {
+	position: absolute;
+	left: 1em;
+	content: ' ';
+	height: 2em;
+	width: 1px;
+	background-color: #aaa;
+	}
+.x:before {
+	transform: rotate(45deg);
+}
+.x:after {
+	transform: rotate(-45deg);
+}
+.x:hover{
+	cursor: pointer;
 }
 /* end modal window */
 /* incident */

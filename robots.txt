@@ -1,0 +1,13 @@
+# Rule 1
+User-agent: Googlebot
+Disallow: /js/
+
+# Rule 2
+User-agent: Googlebot
+Disallow: /css/
+
+# Rule 3
+User-agent: Googlebot
+Disallow: /php/
+
+Sitemap: http://glukov.net.ua/sitemap.xml

@@ -9,97 +9,99 @@
 
 <url>
   <loc>http://glukov.net.ua/</loc>
-  <lastmod>2018-11-29T18:40:59+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya.html</loc>
-  <lastmod>2018-11-29T18:41:00+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya/proektuvannya.html</loc>
-  <lastmod>2018-11-29T18:40:55+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya/network.html</loc>
-  <lastmod>2018-11-29T18:40:54+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya/servers.html</loc>
-  <lastmod>2018-11-29T18:40:56+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya/ip-telfoniya.html</loc>
-  <lastmod>2018-11-29T18:40:53+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya/videosposteregennya.html</loc>
-  <lastmod>2018-11-29T18:40:56+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/stvorennya/zberejennya-danyh.html</loc>
-  <lastmod>2018-11-29T18:40:57+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/obslugovuvannya.html</loc>
-  <lastmod>2018-11-29T18:41:00+00:00</lastmod>
+  <lastmod>2018-12-09T13:10:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/obslugovuvannya/abonentske.html</loc>
-  <lastmod>2018-11-29T18:40:47+00:00</lastmod>
+  <lastmod>2018-12-09T13:10:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/obslugovuvannya/incidentne.html</loc>
-  <lastmod>2018-11-29T18:40:48+00:00</lastmod>
+  <lastmod>2018-12-09T13:10:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://glukov.net.ua/obslugovuvannya/service-center.html</loc>
+  <lastmod>2018-12-09T13:10:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/webdesign.html</loc>
-  <lastmod>2018-11-29T18:41:01+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/about.html</loc>
-  <lastmod>2018-11-29T18:40:58+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/contacts.html</loc>
-  <lastmod>2018-11-29T18:40:58+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/index.html</loc>
-  <lastmod>2018-11-29T18:40:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://glukov.net.ua/obslugovuvannya/service-center.html</loc>
-  <lastmod>2018-11-29T18:40:49+00:00</lastmod>
+  <lastmod>2018-12-02T18:24:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html</loc>
-  <lastmod>2018-11-29T18:40:52+00:00</lastmod>
+  <lastmod>2018-12-09T13:10:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/obslugovuvannya/abonentske/howmatch-isit-abonentske.html</loc>
-  <lastmod>2018-11-29T18:40:50+00:00</lastmod>
+  <lastmod>2018-12-09T13:10:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://glukov.net.ua/obslugovuvannya/abonentske/korysna-informaciya.html</loc>
-  <lastmod>2018-11-29T18:40:51+00:00</lastmod>
+  <lastmod>2018-12-09T13:10:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+
 </urlset>

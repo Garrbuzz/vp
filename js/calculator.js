@@ -37,12 +37,16 @@ window.onload = function(){
 	sendMail.onclick = function(event){
 		let cont=document.querySelector('.modal-cover');
 		mv.open(cont.innerHTML);
+		let x = document.querySelector('.x');
 		let sendName = document.querySelector('.modal-for-mprice-oursoursing input[name="name"]');
 		let sendEmail = document.querySelector('.modal-for-mprice-oursoursing input[name="email"]');
 		let sendPhone = document.querySelector('.modal-for-mprice-oursoursing input[name="phone"]');
 		let sendButton = document.querySelector('.send-button button');
 		let subject = 'Повідомлення з сайту www.glukov.net.ua';
 		let message = sendName.value + 'Ви отримали розрахункову вартість обслуговування вашої інфраструктури. Вона становить ' + totalCost + ' грн.' 
+		x.onclick=function(){
+			mv.close();		
+		}
 		sendButton.onclick = function(event){
 			let patternEmail=/\w+@\w+\.\w+/;
 			if (!patternEmail.test(sendEmail.value)){
@@ -62,6 +66,7 @@ window.onload = function(){
 				      console.log('xhr='+xhr.readyState);
 				      var result = JSON.parse(xhr.responseText);
 				      console.log(result);
+				      mv.close();
 				   	}
 			    }
 			}    
