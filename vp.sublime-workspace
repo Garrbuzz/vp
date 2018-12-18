@@ -530,10 +530,10 @@
 			}
 		},
 		{
-			"file": "ru/obslugovuvannya.html",
+			"file": "ru/obslugovuvannya/abonentske.html",
 			"settings":
 			{
-				"buffer_size": 4482,
+				"buffer_size": 7297,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -597,6 +597,8 @@
 	},
 	"file_history":
 	[
+		"/H/OpServ/OSPanel/domains/vp/ru/obslugovuvannya.html",
+		"/H/OpServ/OSPanel/domains/vp/ru/stvorennya.html",
 		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya.html",
 		"/E/OpServ/OSPanel/domains/vp/ru/index.html",
 		"/E/OpServ/OSPanel/domains/vp/stvorennya.html",
@@ -916,19 +918,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "ru/obslugovuvannya.html",
+					"file": "ru/obslugovuvannya/abonentske.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4482,
+						"buffer_size": 7297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4427,
-								4427
+								0,
+								0
 							]
 						],
 						"settings":
@@ -937,7 +939,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1656.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
