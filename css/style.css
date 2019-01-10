@@ -16,6 +16,9 @@ body{
 	display: grid;
 	grid-template-columns: 10%  1fr repeat(3, minmax(3em, 1fr))  1fr repeat(3, minmax(3em, 1fr)) 1fr repeat(3, minmax(3em, 1fr)) 1fr 10%;
 }
+.block-grid-1-15{
+	grid-column: 1/15;
+}
 /* end layout */
 /* header */
 header, .nav-cont{
@@ -402,10 +405,6 @@ footer{
 	padding: 0;
 }
 .back-abonent{
-	grid-column-start: 1;
-	grid-column-end: 15;
-	display: grid;
-	grid-template-columns: 10% repeat(12, 1fr) 10%;
 	background: url('../img/back-abonent.jpg') no-repeat;
 	background-size: 100%;
 	margin:0;
@@ -452,6 +451,10 @@ footer{
 }
 .text-abonent li p{
 	color: #dedede;
+}
+.text-abonent img{
+	transform: translateX(-200%);
+	/* opacity: 0; */
 }
 /* end abonent */
 .calculator{
