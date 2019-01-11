@@ -452,9 +452,17 @@ footer{
 .text-abonent li p{
 	color: #dedede;
 }
-.text-abonent img{
-	transform: translateX(-200%);
+.img{
+	text-align: center;
+	transform:translateX(-950px);
+	opacity: 0;
+	transition: transform  .5s ease-out, opacity .5s ease-out;
 	/* opacity: 0; */
+}
+.img-coming{
+	transform:translateX(-0px);
+	opacity: 1;
+	
 }
 /* end abonent */
 .calculator{
